@@ -1,0 +1,11 @@
+This directory is used for storing all raw data files.
+
+Naming conventions are as below:
+ - Usually 0 would be used for the testing set and higher numbers would be used for larger, training data collection sets
+ - e stands for elbow
+ - w stands for wrist
+ - mdo_ stands for motion-data-output (filtered)
+ - trunc stands for truncated (by truncation program)
+ - sds_ stands for sensor-data-set (unfiltered bluetooth stream is saved to this file)
+ - accMag includes the vector magnitude waveform of the accelerometer
+ - gyrMag contains the vector magnitude waveform of the gyroscope.

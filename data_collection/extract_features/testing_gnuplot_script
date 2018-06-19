@@ -1,0 +1,8 @@
+set term png enhanced size 1280,1024 font "Arial,20"
+set output 'test.png'
+set datafile separator ','
+set key autotitle columnhead
+set pointsize 4 
+set xlabel "X-Value" 
+set ylabel "Y-Value" 
+plot 'test.csv' using 1:2 with lines
